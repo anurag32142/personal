@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/0414cb5886.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anurag Sharma</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="navbar" >
+        <div class="container">
+            <a class="logo" href="#">Anurag<span>Sharma</span></a>
+
+            <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Open Navigation">
+
+            <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Close Navigation">
+                
+                <ul class="primary-nav">
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="https://drive.google.com/file/d/1imFxmhgrLXo_Y5ygkNSsA79HCQQEFPSq/view?usp=sharing">Resume</a></li>
+                    <li><a href="About_me.html">About me</a></li>
+                </ul>
+
+                <ul class="secondary-nav">
+                    
+                    <li class="go-premium-cta"><a href="https://www.linkedin.com/in/anurag-sharma-24a126129">Contact</a></li>
+                </ul>
+            </nav> 
+        </div>
+    </div>
+
+    <section class="hero">
+        <div class="container">
+            <div class="left-col">
+                <p class="subhead">A simple Developer &amp; Programmer</p>
+                <h1>Why Should you hire me ?</h1>
+
+                <div class="hero-cta">
+                    <a href="About_me.html" class="primary-cta">Click here to know</a>
+                    
+                    </a>
+                </div>
+            </div>
+
+            <img src="images/illustration.svg" class="hero-img" alt="Illustration">
+        </div>
+    </section>
+
+    <section class="features-section">
+        <div class="container">
+            <ul class="features-list">
+                <li>Programming languages: Python, JavaScript, Java </li>
+                <li>Databases: MySQL & Ms-SQL</li>
+                <li>IDE and other tools: IntelliJ IDEA, Visual Studio, Github, HTML & CSS</li>
+                <li>Good designning Skills</li>
+                <li>Comfortable with mac, windows and Linux</li>
+                
+            </ul>
+
+            <img src="images/holding-phone.jpg" alt="Man holding phone">
+        </div>
+    </section>
+
+    <section class="testimonials-section">
+        <div class="container">
+            <ul>
+                <li>
+                    <img  src="images/tick.jpeg" alt="Person">
+
+                    <blockquote>"Simple app to manage your to do lists"</blockquote>
+                    <a href="https://anurag32142.github.io/CRUDTo_do/"><cite> CRUD TO DO</cite></a>
+                    
+                </li>
+                <li>
+                    <img src="images/covid.png" alt="Person">
+
+                    <blockquote>"Covid Application Tracker using react js"</blockquote>
+                    <a href="https://anurag32142.github.io/covid19/"><cite> Covid Tracker</cite></a>
+                </li>
+                <li>
+                    <img src="images/loading.png" alt="Person">
+
+                    <blockquote>"I also have other college project and working on new projects."</blockquote>
+                    <cite>- Anurag</cite>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="social_media">
+        <div class="container">
+           <ul class="social">
+            <li><a href="https://www.linkedin.com/in/anurag-sharma-24a126129" class="fab fa-linkedin"></a></li>
+        </ul>
+        </div>
+
+    </section>
+
+
+    <script>
+
+        const mobileBtn = document.getElementById('mobile-cta')
+              nav = document.querySelector('nav')
+              mobileBtnExit = document.getElementById('mobile-exit');
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+        })
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');
+        })
+
+
+
+    </script>
+
+</body>
+</html>
