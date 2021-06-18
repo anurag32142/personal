@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anurag Sharma</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+   
+
+
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" href="#">Anurag<span>Sharma</span></a>
+
+            <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Open Navigation">
+
+            <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Close Navigation">
+                
+                <ul class="primary-nav">
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="https://drive.google.com/file/d/1imFxmhgrLXo_Y5ygkNSsA79HCQQEFPSq/view?usp=sharing">Resume</a></li>
+                    <li><a href="#">About me</a></li>
+                </ul>
+
+                <ul class="secondary-nav">
+                    
+                    <li class="go-premium-cta"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    
+
+ 
+    <section class="about_me">
+        <div class="container">
+            <ul class="features-section" >
+                My name is Anurag Sharma. I am a Software Developer based
+                in Sydney, Australia. I have done my internship from Telstra 
+                and VIT. I am interested in learning various technologies and frameworks.
+
+                I have also worked with various technologies like JavaScript, Java,
+                React, Python, etc. to name a few. Cloud Computing is also one of my
+                bucket list technologies to learn but due to poor time management, i am yet 
+                to do it. I am quite interested in learning open source technologies as well as 
+                watch lots of YouTube videos, read tonnes of blogs and follow the industry experts to 
+                keep me motivated.
+
+                If you want to know more about me. Please contact me via LinkedIn. 
+            </ul>
+        </div>
+    </section>
+
+
+ 
+
+    <script>
+
+        const mobileBtn = document.getElementById('mobile-cta')
+              nav = document.querySelector('nav')
+              mobileBtnExit = document.getElementById('mobile-exit');
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+        })
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');
+        })
+
+
+
+    </script>
+
+</body>
+</html>
